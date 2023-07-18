@@ -12,4 +12,4 @@ Task Script :- task1_DT.py
 
 Collab implemntation :- Task1_ISB.ipynb
 
-Dat generated as csv :- Scripts and Data/Data of WEEKLY AVERAGE PRICES OF TOTAL TEA SOLD AT INDIAN AUCTION 2008-2023.csv
+Data generated as csv :- Scripts and Data/Data of WEEKLY AVERAGE PRICES OF TOTAL TEA SOLD AT INDIAN AUCTION 2008-2023.csv
