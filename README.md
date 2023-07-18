@@ -1,5 +1,4 @@
 # Task_ISB_DT
-Task1
 The Task is to:-
 Develop a Python script,for web scraping and data consolidation.The task involves scraping data from the "WEEKLY AVERAGE PRICES OF TOTAL TEA SOLD 
 AT INDIAN AUCTION" table on the Tea Board of India website (https://www.teaboard.gov.in/WEEKLYPRICES/2023) for all available years i.e. from 2008 
