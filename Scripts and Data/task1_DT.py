@@ -37,7 +37,7 @@ for year in range(2008, 2024):
     Getting the header names of the table using the first <tr> element and the header cells in it 
     '''
     lencn = len(c_n)  # reprents the totaL no of cells in the header row
-    print(lencn)
+    # print(lencn)
 
     # removed the weekly day time , simply dont need it and created
     tr_all = second_table.find_all('tr')
@@ -49,9 +49,9 @@ for year in range(2008, 2024):
             for data in row.find_all('span'):
                 cell.append(data.text)
     lencell = len(cell)  # represnts total no of cells in the table
-    print(lencell)
+    # print(lencell)
     a = int(lencell / lencn)
-    print(a)  # a means basically the number of rows
+    # print(a)  # a means basically the number of rows
 
     c_n.pop(lencn - 1)  # we dont want the first and last elemnt that's why popping them out
     c_n.pop(0)
@@ -98,7 +98,7 @@ for year in range(2008, 2024):
     data_final_list.append(df_final)  # same appending to list
 df_final_tables = pd.concat(data_final_list)
 df_final_tables.reset_index(drop=True, inplace=True)  # making datframe
-print(df_final_tables)  # the complete dataframe for a particular year
+print(df_final_tables)  # the complete dataframe for all the years
 df_final_tables['week'] = df_final_tables['week'].apply(convert_suitably)  # applying the function to entire column
 df_final_tables.to_csv('Data of WEEKLY AVERAGE PRICES OF TOTAL TEA SOLD AT INDIAN AUCTION 2008-2023.csv',
                        index=False)  # converting it to csv
