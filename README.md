@@ -5,5 +5,5 @@ AT INDIAN AUCTION" table on the Tea Board of India website (https://www.teaboard
 to 2023.The scraped data should be consolidated and stored in a CSV file with 3 columns: week (formatted as DD-MM-YYYY), location, and average_price.
 
 Requirements file is added 
-Also the script file is added alon with the collab implementaion and Data file that is formed as a result of sucessful exectuion of program script
+Also the script file is added alon with the collab implementaion and Data file that is formed as a result of sucessful execution of program script
 Comments are added for proper understanding
